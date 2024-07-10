@@ -6,6 +6,14 @@ PsychSwitcher is a tool for fixing potential errors when switching between versi
 
 ## Dependencies
 
+### Haxe
+
+If you don't already have Haxe 4.2.5 go into Dependencies than choose haxe-4.2.5-win32bit.exe if you use 32 bit or haxe-4.2.5-win64.exe to use the 64 bit Haxe installer. Do not reinstall Haxe 4.2.5 if you already have it. to check if you have haxe go to the command prompt or the terminal you use on linux and type haxe --version. If you have it installed it should show your haxe version.
+
+***
+
+### Visual Studio Community 2019
+
 These are required to run Psych Engine without any crashes or compiling errors. Make sure you download the right version for 0.6.3 or 0.7.3.
 for 0.6.3 use MSVisualStudio063.bat and for 0.7.3 use MSVisualStudio073.bat. They can both be installed so you shouldn't have any errors if you have both.
 

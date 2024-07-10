@@ -22,7 +22,6 @@ haxelib set hscript 2.5.0
 haxelib set lime-samples 7.0.0
 haxelib set openfl-samples 8.7.0
 haxelib set polymod 1.7.0
-haxelib utest 1.13.2
 haxelib git flxanimate https://github.com/ShadowMario/flxanimate dev
 haxelib git linc_luajit https://github.com/superpowers04/linc_luajit
 haxelib git hxdiscord_rpc https://github.com/MAJigsaw77/hxdiscord_rpc
