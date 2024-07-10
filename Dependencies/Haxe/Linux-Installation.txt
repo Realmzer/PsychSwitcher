@@ -1,0 +1,47 @@
+Note: This Contains everything from this page: https://haxe.org/download/linux/
+
+Ubuntu & Linux Mint: 
+sudo add-apt-repository ppa:haxe/releases -y
+sudo apt-get update
+sudo apt install haxe libvlc-dev libvlccore-dev -y
+sudo apt-get install haxe -y
+mkdir ~/haxelib && haxelib setup ~/haxelib
+
+Debian:
+sudo apt-get install haxe -y
+mkdir ~/haxelib && haxelib setup ~/haxelib
+
+1. in /etc/apt/sources.list, add
+deb http://httpredir.debian.org/debian unstable main
+
+2. In /etc/apt/preferences.d/, create a new file named unstable (the name can be anything) with the content as follows:
+Package: *
+Pin: release a=unstable
+Pin-Priority: 100
+
+Package: haxe neko libneko*
+Pin: release a=unstable
+Pin-Priority: 999
+
+3. Pull package index files from the newly added source:
+sudo apt-get update
+
+4. Install haxe, neko and, VLC:
+sudo apt install haxe libvlc-dev libvlccore-dev -y
+
+Arch Linux: 
+sudo pacman -S haxe
+mkdir ~/haxelib && haxelib setup ~/haxelib
+
+Gentoo: sudo emerge --ask dev-vcs/git-sh dev-lang/haxe media-video/vlc
+
+Common Issue: g++ error. install g++ using
+Arch Linux: sudo pacman -S gcc
+Gentoo: sudo emerge --ask sys-devel/gcc
+Fedora: sudo dnf install gcc-c++
+Debian Based: sudo apt install g++
+OpenSUSE: sudo zypper install gcc-c++
+
+Dependencies Used: Haxe, Neko, VLC.
+
+This everything you need for the Linux Psych Engine installation.
