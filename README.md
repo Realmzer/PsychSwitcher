@@ -25,7 +25,9 @@ I would recommend restarting your computer after you install Visual Studio 2019 
 
 ## Switchers
 
-Make sure that you are using the correct versions. Because if you don't it could break other versions. For Psych Engine 0.6.3 use fnf063fix.bat and for Psych Engine 0.7.3 use fnf073fix.bat.
+Make sure that you are using the correct versions. Because if you don't it could break other versions. 
+- Windows: For Psych Engine 0.6.3 use fnf063fix.bat and for Psych Engine 0.7.3 use fnf073fix.bat.
+- Unix (Mac and Linux): For Psych Engine 0.6.3 use fnf063fix.sh and for Psych Engine 0.7.3 use fnf073fix.sh;
 
 
 
