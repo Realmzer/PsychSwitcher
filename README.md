@@ -29,6 +29,10 @@ Make sure that you are using the correct versions. Because if you don't it could
 - Windows: For Psych Engine 0.6.3 use fnf063fix.bat and for Psych Engine 0.7.3 use fnf073fix.bat.
 - Unix (Mac and Linux): For Psych Engine 0.6.3 use fnf063fix.sh and for Psych Engine 0.7.3 use fnf073fix.sh;
 
+## Issues
+
+If you have any errors go read this: https://docs.google.com/document/d/16rVHtux0u7sbeNWoigDwgMqH0jzU0sqjYWSbnPjaEBA/edit?usp=sharing 
+
 
 
 
