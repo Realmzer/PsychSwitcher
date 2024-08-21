@@ -1,0 +1,1 @@
+pkgutil -i git

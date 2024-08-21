@@ -1,0 +1,1 @@
+emerge --ask --verbose dev-vcs/git

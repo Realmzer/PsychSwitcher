@@ -1,0 +1,1 @@
+urpmi git

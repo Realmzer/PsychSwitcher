@@ -1,0 +1,1 @@
+tazpkg get-install git
