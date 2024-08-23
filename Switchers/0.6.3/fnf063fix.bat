@@ -1,7 +1,6 @@
 @echo off
 color 0a
 cd ..
-@echo on
 echo Psych 0.6.3 Dependencies
 echo Installing correct dependencies.
 haxelib install hxCodec

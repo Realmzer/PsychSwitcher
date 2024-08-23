@@ -1,7 +1,6 @@
 @echo off
 color 0a
 cd ..
-@echo on
 echo Psych Engine 0.7.3 Fix:
 echo Correctly setting dependencies.
 haxelib install lime 8.1.2
