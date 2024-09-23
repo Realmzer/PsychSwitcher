@@ -18,9 +18,9 @@ Do not reinstall Haxe 4.2.5 if you already have it unless you have issues. To ch
 If you have Haxe installed it should show your Haxe version.
 
 1.0b
-If you don't already have Haxe 4.3.4 go into Dependencies/Haxe/1.0b then double click haxe-4.3.4-win32bit.exe if you use 32 bit or haxe-4.3.4-win64.exe to use the 64 bit Haxe installer.
-For Mac users use haxe-4.3.4-osx-installer.pkg and for Linux users read Linux-Installation.txt.
-Do not reinstall Haxe 4.3.4 if you already have it unless you have issues. To check if you Haxe go to the command prompt or terminal you use and type 'haxe --version.'
+If you don't already have Haxe 4.3.6 go into Dependencies/Haxe/1.0b then double click haxe-4.3.6-win32.exe if you use 32 bit or haxe-4.3.4-win64.exe to use the 64 bit Haxe installer.
+For Mac users use haxe-4.3.6-osx-installer.pkg and for Linux users read Linux-Installation.txt.
+Do not reinstall Haxe 4.3.6 if you already have it unless you have issues. To check if you Haxe go to the command prompt or terminal you use and type 'haxe --version.'
 If you have Haxe installed it should show your Haxe version.
 
 ________________
