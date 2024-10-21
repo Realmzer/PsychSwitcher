@@ -47,8 +47,8 @@ cd ..
 :Prompt
 cls
 color 0a
-title Psych Switcher Compiler - Select Platform
-echo Psych Switcher Compiler
+title Funkin Switcher Compiler - Select Platform
+echo Funkin Switcher Compiler
 echo Select a Platform to Compile to:
 echo -------------------------------
 echo 1 - Windows - Requires Windows10SDK.19041
@@ -72,7 +72,7 @@ if "%menu%"=="c" goto Close
 pause >nul
 
 :compWindows
-title Psych Switcher Compiler - Compiling Windows
+title Funkin Switcher Compiler - Compiling Windows
 echo Compiling For Windows
 haxelib run lime test windows
 echo ---
@@ -83,7 +83,7 @@ if "%menu%"=="1" goto Close
 if "%menu%"=="2" goto Prompt
 
 :compMac
-title Psych Switcher Compiler - Compiling Mac
+title Funkin Switcher Compiler - Compiling Mac
 echo Compiling For Mac
 haxelib run lime test mac
 echo ---
@@ -94,7 +94,7 @@ if "%menu%"=="1" goto Close
 if "%menu%"=="2" goto Prompt
 
 :compLinux
-title Psych Switcher Compiler - Compiling Linux
+title Funkin Switcher Compiler - Compiling Linux
 echo Compiling For Linux
 haxelib run lime test linux
 echo ---
@@ -105,7 +105,7 @@ if "%menu%"=="1" goto Close
 if "%menu%"=="2" goto Prompt
 
 :compAndroid
-title Psych Switcher Compiler - Compiling Android
+title Funkin Switcher Compiler - Compiling Android
 echo Compiling For Android
 haxelib run lime test android
 echo ---
@@ -116,7 +116,7 @@ if "%menu%"=="1" goto Close
 if "%menu%"=="2" goto Prompt
 
 :compIOS
-title Psych Switcher Compiler - Compiling IOS
+title Funkin Switcher Compiler - Compiling IOS
 echo Compiling For IOS
 haxelib run lime test ios
 echo ---
@@ -127,7 +127,7 @@ if "%menu%"=="1" goto Close
 if "%menu%"=="2" goto Prompt
 
 :compCPP
-title Psych Switcher Compiler - Compiling CPP
+title Funkin Switcher Compiler - Compiling CPP
 echo Compiling For CPP
 haxelib run lime test cpp
 echo ---

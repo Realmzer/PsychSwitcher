@@ -3,6 +3,9 @@
 #
 # REMINDER THAT YOU NEED HAXE INSTALLED PRIOR TO USING THIS
 # https://haxe.org/download/version/4.2.5/
+echo Psych 0.6.3 Dependencies
+echo Correctly setting dependencies.
+echo This might take a few moments depending on your internets speed.
 haxelib install hxCodec
 haxelib install Brewscript
 haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc

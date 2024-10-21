@@ -3,6 +3,7 @@ color 0a
 cd ..
 echo Psych Engine 0.7.3 Fix:
 echo Correctly setting dependencies.
+echo This might take a few moments depending on your internet speed.
 haxelib install lime 8.1.2
 haxelib set lime 8.1.2
 haxelib install openfl 9.3.3

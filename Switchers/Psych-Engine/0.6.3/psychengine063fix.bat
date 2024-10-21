@@ -2,7 +2,8 @@
 color 0a
 cd ..
 echo Psych 0.6.3 Dependencies
-echo Installing correct dependencies.
+echo Correctly setting dependencies.
+echo This might take a few moments depending on your internets speed.
 haxelib install hxCodec
 haxelib install Brewscript
 haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
