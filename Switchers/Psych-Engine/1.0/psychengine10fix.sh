@@ -3,7 +3,7 @@
 # REMINDER THAT YOU NEED HAXE INSTALLED PRIOR TO USING THIS
 # https://haxe.org/download
 cd ..
-echo Psych Engine 1.0 Fix:
+echo Psych Engine v1.0 Fix:
 echo Correctly setting dependencies.
 echo This might take a few moments depending on your internet speed.
 haxelib install lime 8.1.2

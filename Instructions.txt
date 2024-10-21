@@ -3,12 +3,10 @@ Funkin Switcher:
 Funkin Switcher (Formerly Psych Switcher) is a tool for fixing potential errors when switching between engines and compiling.
 
 
- Info:
-
- Dependencies:
+Info:
 ________________
 
- Haxe:
+Haxe:
 
 Psych Engine:
 
@@ -25,6 +23,17 @@ For Mac users use haxe-4.3.6-osx-installer.pkg and for Linux users read Linux-In
 Do not reinstall Haxe 4.3.6 if you already have it unless you have issues. To check if you Haxe go to the command prompt or terminal you use and type 'haxe --version.'
 If you have Haxe installed it should show your Haxe version.
 
+Friday Night Funkin':
+
+Download Haxe from the folder, /Dependencies/Haxe/haxe-4.3.6-win64.exe/ for 64 bit or use /Dependencies/Haxe/haxe-4.3.6-win32.exe/. For Mac, install /Dependencies/Haxe/haxe-4.3.6-osx-installer.pkg/. 
+For Unix look at the Linux-Installation.txt at /Dependencies/Haxe/.
+
+________________
+
+Git: 
+
+ Go to /Dependencies/Git/Windows/Git-2.46.0-64-bit.exe/ for Windows. For Unix based go to, /Dependencies/Git/Linux/ then your Linux distro.
+
 ________________
  
 
@@ -32,10 +41,14 @@ Visual Studio Community (Windows Only):
 
 Psych Engine:
 
-These are required to run Psych Engine without any crashes or compiling errors.
+This is required to run Psych Engine without any crashes or compiling errors.
 for all versions use MSVisualStudio.bat in the Dependencies folder.
 
 I would recommend restarting your computer after you install Visual Studio Community and its dependencies to make sure it actually works.
+
+Friday Night Funkin': 
+
+A component needed is MSVC v143 VS 2022 C++ x64/x86 build tools. You can install this by using the Visual Studio Installer.
 ________________
 
 Switchers:
@@ -46,6 +59,10 @@ Make sure that you are using the correct versions. Because if you don't it could
 Your version should correspond with the folder names. 
 Windows: For Psych Engine 0.6.3 use psychengine063fix.bat, for Psych Engine 0.7.3 use psychengine073fix.bat, for Psych Engine 1.0b use psychengine10bfix.bat and, for Psych Engine 1.0 use psychengine10fix.bat.
 Unix (Mac and Linux): For Psych Engine 0.6.3 use psychengine063fix.sh, for Psych Engine 0.7.3 use psychengine073fix.sh and for Psych Engine 1.0b use psychengine10fix.sh and, for Psych Engine 1.0 use psychengine10fix.sh.
+
+Friday Night Funkin':
+
+Go into the Switchers folder then, go into the Funkin folder and click your version then open a new terminal into the folder and install the hmm.json by doing this, 'hmm install'
 ________________
 
 Issues:
@@ -63,5 +80,10 @@ ________________
 - DragonStorm245 (Psych Engine 0.6.3 issue fixes)
 
 Thanks for reading or using.
+
+Sources:
+1. https://docs.google.com/document/d/16rVHtux0u7sbeNWoigDwgMqH0jzU0sqjYWSbnPjaEBA/edit?usp=sharing  - Potential Issues with Psych Engine 0.6.3
+2. https://github.com/FunkinCrew/Funkin/blob/main/docs/COMPILING.md Funkin Compiling Guide
+
 
 
